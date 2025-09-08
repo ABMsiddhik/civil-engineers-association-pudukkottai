@@ -234,7 +234,7 @@ body {
     font-size: 14px;
     text-align: center;
     padding: 5px;
-    background-color: #FA0368;
+    background-color: #0b0372da;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -597,12 +597,17 @@ body {
     right: 20px;
 }
 .service-content p {
-    color: #34495e;
+    color: #fa036ad2;
     font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 15px;
+    font-weight: 400;
+    
+ 
 }
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .card-header {
         flex-direction: row;
