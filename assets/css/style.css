@@ -1,5 +1,4 @@
-
-   * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +11,7 @@ body {
     align-items: center;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     min-height: 100vh;
-    padding: 20px;
+    padding: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -69,8 +68,6 @@ body {
 .logo {
     width: 80px;
     height: 80px;
-    background: #FA0368;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,13 +77,18 @@ body {
     text-align: center;
     flex-shrink: 0;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-color: #1e177c;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
+
 
 .association-name {
     text-align: center;
@@ -219,7 +221,6 @@ body {
 .business-logo {
     width: 70px;
     height: 70px;
-    background: #FA0368;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -229,12 +230,26 @@ body {
     flex-shrink: 0;
     overflow: hidden;
 }
+.business-logo  p{
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    background-color: #FA0368;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 
 .business-logo img {
-    width: 100%;
-    height: 100%;
+    width: 130%;
+    height: 130%;
     object-fit: cover;
 }
+
 
 .business-title {
     text-align: center;
@@ -336,6 +351,7 @@ body {
 .service-content {
     padding: 15px;
 }
+
 
 .service-images {
     display: grid;
@@ -580,7 +596,12 @@ body {
 .slider-next {
     right: 20px;
 }
-
+.service-content p {
+    color: #34495e;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .card-header {
@@ -604,7 +625,7 @@ body {
     }
 
     .association-name h2 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .association-name p {
@@ -699,11 +720,11 @@ body {
     }
 
     .association-name h1 {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     .association-name h2 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .association-name p {
@@ -733,8 +754,9 @@ body {
         width: 40px;
         height: 40px;
     }
-       .business-logo p{
-        font-size: .8rem;
+
+    .business-logo p {
+        font-size: .7rem;
     }
 
     .business-title h3 {
